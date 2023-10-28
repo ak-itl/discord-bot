@@ -67,3 +67,6 @@ def scrape(url):
       list.append(i.find_element(By.XPATH, "./../..").get_attribute('href'))
 
   return list
+
+
+# add tests here
