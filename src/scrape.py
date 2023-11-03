@@ -66,4 +66,5 @@ def scrape(url):
       # go backwards to find parent node, which contains the link
       list.append(i.find_element(By.XPATH, "./../..").get_attribute('href'))
 
+  driver.close()
   return list
