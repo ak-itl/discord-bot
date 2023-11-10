@@ -817,6 +817,6 @@ idna = ">=2.0"
 multidict = ">=4.0"
 
 [metadata]
-lock-version = "2.0"
+lock-version = "1.5.1"
 python-versions = ">=3.10.0,<3.11"
 content-hash = "2e87deb2e9b5b886d4f92f71d5aca5a574569df2b25c07c520228876500d8f47"
