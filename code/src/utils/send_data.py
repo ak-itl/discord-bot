@@ -5,7 +5,7 @@ import os
 discord = os.environ['WEBHOOK_URL']
 
 
-def send_data(list):
+def post_to_discord(list):
 
   if (len(list) < 1):
     print ("no sold out links found")

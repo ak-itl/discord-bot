@@ -1,9 +1,9 @@
 from utils.scrape import scrape
-from utils.setup_driver import setup_driver
+from utils.setup_driver import setup
 
 
 def retrieve (url):
-  driver = setup_driver()
+  driver = setup()
   list = scrape(driver, url)
   driver.close()
   return list

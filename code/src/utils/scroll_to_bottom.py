@@ -2,7 +2,7 @@ import time
 
 
 # scroll down to the bottom of the page so all elements can load
-def scroll_to_bottom(driver):
+def scroll(driver):
   # scroll down to the bottom of the page so all elements can load
 
   # Get scroll height
